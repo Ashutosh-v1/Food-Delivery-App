@@ -5,6 +5,15 @@ import { assets } from '../../assets/assets'
 const LoginPopup = ({setShowLogin}) => {
 
     const [currState,setCurrState] = useState("Login")
+    const [data,setData] = useState({
+      name:"",
+      email:"",
+      password:""
+    })
+
+    const onChangeHandler = () => {
+      //6.25.25
+    }
 
   return (
     <div className='login-popup'>
